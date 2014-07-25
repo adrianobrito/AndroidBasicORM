@@ -33,7 +33,7 @@ public class Entity implements Serializable{
 	@Id
 	private Integer id;
 	private String name;
-	private AnotherEntity anotherEntity; // generate anotherEntity_id
+	private AnotherEntity anotherEntity; // generate INTEGER column
 	
 	@Transient
 	private Integer transientData;
