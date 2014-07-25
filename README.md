@@ -3,7 +3,7 @@
 A Framework that could generate SQLite Tables from classes on your Android App. 
 [Download here](https://github.com/adrianobrito/AndroidBasicORM/blob/master/target/AndroidBasicORM-0.0.1-SNAPSHOT.jar) and put on your library dir on the Android App.
 
-To configure you need to have a `Class` that inherits the abstract class `PersistenceManagerFactory`. 
+To configure you need to have a class that inherits the abstract class `PersistenceManagerFactory`. 
 ```java
 public class DemoPersistenceManagerFactory extends PersistenceManagerFactory {
 
