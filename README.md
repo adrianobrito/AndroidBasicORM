@@ -55,4 +55,15 @@ PersistenceManagerFactory persistenceManagerFactory = new DemoPersistenceManager
 PersistenceManager persistenceManager = persistenceManagerFactory.create();
 ```
 
+Now we will explore the basic CRUD operations.
 
+**Insert**
+```java
+persistenceManager.insert(entity);
+```
+
+**Delete**
+```java
+// delete rows that have id = 15
+persistenceManager.insert(Entity.class, "id = ?" , new String[]{"15"});  
+```
